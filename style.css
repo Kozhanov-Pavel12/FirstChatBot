@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, input{
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(228, 224, 224)
+}
+
+h1 {
+  text-align: center;
+  background-color:  #b80c37;
+  color:  #e78383;
+  padding: 7px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.wr {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.bot {
+max-width: 320px;
+width: 100%;
+padding: 10px;
+border: 1px solid #aa2020;
+border-radius: 10px;
+background-color: white;
+margin-top: 50px
+}
+
+.bot__top {
+  color: #d30e0e;
+  margin-bottom: 30px;
+}
+
+.bot__top p:first-child {
+  font-size: 24px;
+  margin-bottom: 7px;
+}
+
+.bot__form form {
+  display: flex;
+  flex-flow: column;
+}
+
+.bot__form form input {
+  margin-bottom: 10px;
+  height: 40px;
+  background: rgb(255, 210, 210);
+  border: none;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.bot__form form input::placeholder {
+  color: #aa2020;
+}
+
+.bot__form form input:focus{
+  outline: none;
+  border: none;
+}
+
+.bot__form form button {
+  background: #ecc43f;
+  height: 40px;
+  border: none;
+  color: #aa2032;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: all .25s linear
+}
+
+
+.bot__form form button:hover{
+  cursor: pointer;
+  background: #e29a2e;
+}
+
+.bot__form form button:focus{
+  outline: none;
+  border: none;
+}
+
+.themetoggle {
+  text-decoration: none;
+  display: flex;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.themetoggle span {
+  margin-left: 10px;
+}
+
+.dark {
+  background-color: rgb(24, 24, 24);
+}
+
+.dark-bot {
+  background-color: rgb(24, 24, 24);
+  border: 1px solid #ffffff;
+}
+
+.dark-head {
+  background-color: rgb(24, 24, 24);
+  border: 1px solid #ffffff;
+  color: white;
+}
+
+.dark-bot-top {
+  color: white;
+}
+
+.dark-themetoggle {
+  color: white;
+}
